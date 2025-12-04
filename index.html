@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Vytria · Manuais</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0d0f14;
+      color: #e5e5e5;
+    }
+
+    header {
+      background: #14171f;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 1px solid #222631;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 26px;
+      color: #4da3ff;
+      letter-spacing: 1px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: #14171f;
+      padding: 25px;
+      border-radius: 10px;
+      border: 1px solid #1d212c;
+      transition: all .2s ease;
+      cursor: pointer;
+      text-align: center;
+    }
+
+    .card:hover {
+      background: #1a1e27;
+      border-color: #355;
+      transform: translateY(-3px);
+    }
+
+    .card h2 {
+      margin: 0 0 10px;
+      color: #4da3ff;
+      font-size: 20px;
+    }
+
+    .card p {
+      font-size: 14px;
+      opacity: .7;
+      margin-bottom: 20px;
+    }
+
+    .card a {
+      display: inline-block;
+      padding: 8px 14px;
+      background: #4da3ff;
+      color: #000;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: 0.2s;
+    }
+
+    .card a:hover {
+      background: #76b8ff;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      opacity: .5;
+      margin-top: 40px;
+      font-size: 14px;
+    }
+
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>📘 Manuais Oficiais · Vytria</h1>
+</header>
+
+<div class="container">
+  <div class="grid">
+
+    <div class="card">
+      <h2>Plano FREE</h2>
+      <p>Manual completo com tudo o que o usuário FREE pode fazer.</p>
+      <a href="free.html">Acessar Manual</a>
+    </div>
+
+    <div class="card">
+      <h2>Plano PRO</h2>
+      <p>Manual detalhado para campanhas profissionais com 10 links.</p>
+      <a href="pro.html">Acessar Manual</a>
+    </div>
+
+    <div class="card">
+      <h2>Plano ELITE</h2>
+      <p>Manual avançado com links ilimitados, histórico completo e geolocalização.</p>
+      <a href="elite.html">Acessar Manual</a>
+    </div>
+
+    <div class="card">
+      <h2>Plano AGENCY</h2>
+      <p>Informações consultivas do plano Agency com white-label e personalizações.</p>
+      <a href="agency.html">Acessar Manual</a>
+    </div>
+
+  </div>
+</div>
+
+<footer>Vytria · Plataforma Inteligente de Rastreamento de Cliques</footer>
+
+</body>
+</html>
